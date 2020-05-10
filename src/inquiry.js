@@ -7,6 +7,7 @@ export default function() {
   return (
     <div id="wrapper">
       <Nav/>
+      <form>
       <h2>お問合せ</h2>
       <h3>タイトル</h3>
       <p><input type='text'/></p>
@@ -15,6 +16,8 @@ export default function() {
         <textarea>
         </textarea>
       </p>
+      <input type="submit"/>
+      </form>
     </div>
   )
 }
