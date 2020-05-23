@@ -6,7 +6,7 @@ import './scss/greeting.scss';
 
 export default function() {
   return (
-    <div id="wrapper">
+    <div class="wrapper">
       <Nav/>
       <h1>ご挨拶</h1>
 

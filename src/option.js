@@ -7,7 +7,7 @@ import './scss/option.scss'
 
 export default function() {
   return (
-    <div id="wrapper">
+    <div class="wrapper">
       <Nav/>
       <table id="option">
         <tr>

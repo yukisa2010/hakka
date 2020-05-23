@@ -6,7 +6,7 @@ import './scss/company.scss';
 
 export default function() {
   return (
-    <div id="wrapper">
+    <div class="wrapper">
       <Nav/>
       
       <div id="company">

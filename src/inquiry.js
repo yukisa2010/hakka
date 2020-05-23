@@ -5,7 +5,7 @@ import './scss/inquiry.scss'
 
 export default function() {
   return (
-    <div id="wrapper">
+    <div class="wrapper">
       <Nav/>
       <form>
       <h2>お問合せ</h2>
@@ -16,7 +16,7 @@ export default function() {
         <textarea>
         </textarea>
       </p>
-      <input type="submit"/>
+      <input type="submit" value="送信"/>
       </form>
     </div>
   )

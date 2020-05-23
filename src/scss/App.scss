@@ -1,3 +1,33 @@
-img#top {
-  width:700px;
+.home {
+  position: relative;
+  img#top {
+    width:700px;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+
+  
+    span:first-child {
+      font-size: 50px;
+    }
+    span:last-child {
+      font-size: 50px;
+      color:#2b75be;
+      transform: rotate(-30deg);
+      position: absolute;
+    }
+  
+  }
+
+  h2.subtitle {
+    font-size:20px;
+    position: absolute;
+    top:50px;
+    right:70px;
+  }
 }
+

@@ -4,15 +4,18 @@ import Nav from './nav'
 
 function App() {
   return (
-    <div id="wrapper">
-      <Nav/>
-    <p>
-    <img src={"./top.jpg"} alt="" srcset=""/>
-    </p>
+<div class="wrapper home">
+  <Nav/>
+    <h1>まごころ<span>手</span>洗い<span>洗科</span></h1>
+    <h2 class='subtitle'>おはかのおそうじ<br/>お問合せ => TEL：03-6317-3144</h2>
+
+    <h3>東京・神奈川・千葉・埼玉　全国対応可</h3>
+
+    <p><img src={"./top.jpg"} alt="" srcset=""/></p>
     <ul>
-      <li>まごころ手洗い</li>
-      <li>おはかのおそうじ</li>
-      <li>お問合せ => TEL：03-6317-3144</li>		
+      <li></li>
+      <li></li>
+      <li>お問合せ => TEL：03-6317-3144</li>
     </ul>
     <p>
     東京・神奈川・千葉・埼玉				全国対応可
